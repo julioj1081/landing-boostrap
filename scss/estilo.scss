@@ -1,0 +1,39 @@
+$color1 : rgba(95,114,190,.8);
+$color2 : rgba(155,35,234,.7);
+body, html{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient($color1, $color2), url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+header{
+    .logo{
+        height: 40px;
+        font-size: 3em;
+        margin-top: 20px;
+        color: wheat;
+    }
+    .descripcion{
+        letter-spacing: 2px;
+        font-family: sans-serif;
+    }
+    .bt{
+        color: black;
+    }
+    .form-control{
+        color: black !important;
+        opacity: 0.95;
+    }
+    a{
+        .fab{
+            color: white;
+            font-size: 2rem;
+            margin: 0 1rem;
+        }
+    }
+}
